@@ -7,17 +7,31 @@
 
 h1 {
   color: #ffffff;
+  margin: 40px 0 0;
 }
 
 .love-to-hear-form {
   max-width: 600px;
   width: 100%;
-  margin: 0 auto;
+  margin: 40px auto;
+  border-radius: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
   background-color: #f9f6e4;
 }
 
-.love-to-hear-form .inputs {
-  max-width: 260px;
+.love-to-hear-form h2 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+  padding: 12px 30px;
+  border-radius: 5px 5px 0 0;
+  background-image: linear-gradient(to top, #854406 0%, #854406 9%, #854406 15%, #ad5604 79%, #b75a03 95%, #ce8842 100%);
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.55), inset 0 3px 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+.love-to-hear-form .form-inputs {
+  max-width: 540px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -25,7 +39,74 @@ h1 {
 }
 
 .love-to-hear-form fieldset {
+  max-width: 260px;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
 
+.love-to-hear-form fieldset.left {
+  margin-right: 20px;
+}
+
+.love-to-hear-form label {
+  color: #202020;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  margin-top: 30px;
+}
+
+.love-to-hear-form label:first-child {
+  margin-top: 0;
+}
+
+.form-inputs input, .form-inputs textarea, .form-inputs select {
+  max-width: 258px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #909090;
+  background-color: #ffffff;
+}
+
+.form-inputs input {
+  line-height: 30px;
+}
+
+.form-inputs select {
+  max-height: 30px;
+  height: 100%;
+}
+
+.form-inputs textarea {
+  max-height: 205px;
+  height: 100%;
+}
+
+.form-inputs input[type=submit] {
+  max-width: 186px;
+  width: 100%;
+  text-shadow: 0 1px 0 #ffffff;
+  color: #a24d00;
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 400;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.75), inset 0 3px 3px 1px rgba(0, 0, 0, 0.15);
+  border: 8px solid #ffffff;
+  border-radius: 20px;
+  background-image: linear-gradient(to top, #d2bdaa 0%, #ffffff 100%);
+  margin: 28px auto;
+}
+
+.form-inputs p {
+  color: #b8002f;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: 30px;
 }
