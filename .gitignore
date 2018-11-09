@@ -1,3 +1,5 @@
 *.iml*.xml/*.iml/*.xml/.idea/DS_Store*DS_Store
 *.xml
 *.iml
+assets/.DS_Store
+.DS_Store
