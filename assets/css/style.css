@@ -128,7 +128,7 @@ h1 {
   font-size: 20px;
   font-weight: 400;
   margin: 0;
-  padding: 12px 30px;
+  padding: 12px 35px;
 }
 
 .leave-your-comment-here .form-inputs {
@@ -136,7 +136,7 @@ h1 {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin: 30px 35px;
+  margin: 30px 35px 0;
 }
 
 .leave-your-comment-here fieldset {
@@ -204,9 +204,10 @@ h1 {
 .leave-your-comment-here .bottom-info {
   max-width: 580px;
   width: 100%;
-  margin: 30px 35px;
+  margin: 10px 35px 30px;
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .leave-your-comment-here .bottom-info input[type=submit] {
@@ -285,3 +286,4 @@ h1 {
   width: 100%;
   margin-bottom: 40px;
 }
+/* end 3-rd form */
