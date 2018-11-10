@@ -140,7 +140,7 @@ h1 {
 }
 
 .leave-your-comment-here fieldset {
-  max-width: 260px;
+  max-width: 253px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -149,16 +149,21 @@ h1 {
   padding: 0;
 }
 
+.leave-your-comment-here fieldset.right {
+  max-width: 300px;
+  width: 100%;
+}
+
 .leave-your-comment-here fieldset.left {
   margin-right: 20px;
 }
 
 .leave-your-comment-here label {
   color: #202020;
-  font-size: 13px;
-  font-weight: 700;
-  margin-bottom: 12px;
-  margin-top: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 15px;
 }
 
 .leave-your-comment-here label:first-child {
@@ -176,4 +181,107 @@ h1 {
 
 .leave-your-comment-here .form-inputs input {
   line-height: 32px;
+}
+
+.leave-your-comment-here .form-inputs input[value] {
+  color: #8e8e8e;
+  padding-left: 10px;
+  max-width: 243px;
+  width: 100%;
+}
+
+.leave-your-comment-here .form-inputs textarea {
+  max-width: 300px;
+  width: 100%;
+  max-height: 180px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-shadow: none;
+}
+
+.leave-your-comment-here .bottom-info {
+  max-width: 580px;
+  width: 100%;
+  margin: 30px 35px;
+  display: flex;
+  flex-direction: row;
+}
+
+.leave-your-comment-here .bottom-info input[type=submit] {
+  border: 1px solid #506700;
+  background-image: linear-gradient(to top, #abcb1c 0%, #e1fb17 100%);
+  padding: 10px 20px;
+  cursor: pointer;
+}
+/* end 2-nd form */
+
+/* 3-rd form */
+.subscribe {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 340px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-shadow: inset 0 0 20px rgba(192, 192, 192, 0.23);
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background-image: linear-gradient(to top, #3f3f3f 0%, #3f3f3f 8%, #727272 24%, #ffffff 100%);
+}
+
+.subscribe h2 {
+  text-shadow: 1px 1px 1px rgba(76, 11, 142, 0.75);
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  background-image: linear-gradient(to top, #4a1d81 0%, #7832ce 12%, #8426e4 30%, #8017c2 53%, #bb32ee 92%, #dc78ff 100%);
+  padding: 14px 0;
+  margin: 0 auto;
+  border-radius: 8px 8px 0 0;
+}
+
+.subscribe div {
+  max-width: 294px;
+  width: 100%;
+  margin: 30px auto;
+  padding: 8px 8px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 0 #ffffff, inset 1px 1px 0 #000000;
+  background-color: #b5b5b5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subscribe div input[type=text] {
+  background: none;
+  border: none;
+  outline: none;
+  max-width: 140px;
+  width: 100%;
+  color: #b6abab;
+  text-shadow: 1px 1px 0 #d9d9d9;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.subscribe div input[type=submit] {
+  color: #c0c0c0;
+  font-size: 13px;
+  font-weight: 400;
+  background-image: linear-gradient(to top, #000000 0%, #333333 100%);
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.shadow {
+  max-width: 340px;
+  width: 100%;
+  margin-bottom: 40px;
 }
