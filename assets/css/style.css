@@ -10,6 +10,7 @@ h1 {
   margin: 40px 0 0;
 }
 
+/* 1-st form */
 .love-to-hear-form {
   max-width: 600px;
   width: 100%;
@@ -64,7 +65,7 @@ h1 {
   margin-top: 0;
 }
 
-.form-inputs input, .form-inputs textarea, .form-inputs select {
+.love-to-hear-form .form-inputs input, .form-inputs textarea, .form-inputs select {
   max-width: 258px;
   width: 100%;
   margin: 0;
@@ -74,21 +75,21 @@ h1 {
   background-color: #ffffff;
 }
 
-.form-inputs input {
+.love-to-hear-form .form-inputs input {
   line-height: 30px;
 }
 
-.form-inputs select {
+.love-to-hear-form .form-inputs select {
   max-height: 30px;
   height: 100%;
 }
 
-.form-inputs textarea {
+.love-to-hear-form .form-inputs textarea {
   max-height: 205px;
   height: 100%;
 }
 
-.form-inputs input[type=submit] {
+.love-to-hear-form .form-inputs input[type=submit] {
   max-width: 186px;
   width: 100%;
   text-shadow: 0 1px 0 #ffffff;
@@ -98,15 +99,81 @@ h1 {
   font-weight: 400;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.75), inset 0 3px 3px 1px rgba(0, 0, 0, 0.15);
   border: 8px solid #ffffff;
-  border-radius: 20px;
+  border-radius: 30px;
   background-image: linear-gradient(to top, #d2bdaa 0%, #ffffff 100%);
   margin: 28px auto;
 }
 
-.form-inputs p {
+.love-to-hear-form .form-inputs p {
   color: #b8002f;
   font-size: 13px;
   font-weight: 700;
   line-height: 20px;
   margin-top: 30px;
+}
+/* end 1-st form */
+
+/* 2-nd form */
+.leave-your-comment-here {
+  max-width: 646px;
+  width: 100%;
+  margin: 40px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 15px solid rgba(141, 141, 141, 0.25);
+  background-color: #709ad3;
+}
+
+.leave-your-comment-here h2 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+  padding: 12px 30px;
+}
+
+.leave-your-comment-here .form-inputs {
+  max-width: 580px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 35px;
+}
+
+.leave-your-comment-here fieldset {
+  max-width: 260px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.leave-your-comment-here fieldset.left {
+  margin-right: 20px;
+}
+
+.leave-your-comment-here label {
+  color: #202020;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  margin-top: 30px;
+}
+
+.leave-your-comment-here label:first-child {
+  margin-top: 0;
+}
+
+.leave-your-comment-here .form-inputs input {
+  max-width: 253px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #ffffff;
+}
+
+.leave-your-comment-here .form-inputs input {
+  line-height: 32px;
 }
